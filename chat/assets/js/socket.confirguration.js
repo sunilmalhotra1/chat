@@ -58,6 +58,8 @@
         </li>`;
           $('.msg_history').append(receiveUi);
       }
+      var elem = document.getElementById('dataul');
+      elem.scrollTop = elem.scrollHeight;
   }
   // event handler for server sent data
   // the data is displayed in the "Received" section of the page

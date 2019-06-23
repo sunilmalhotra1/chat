@@ -240,3 +240,6 @@
       clear: both;
       height: 0;
     }
+    .msg_history >li{
+      list-style-type: none;
+    }
