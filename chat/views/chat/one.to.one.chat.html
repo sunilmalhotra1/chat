@@ -1,0 +1,53 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Chat Widget</title>
+
+  <link rel="stylesheet" href="/assets/css/socket.ui.css">
+
+
+  <script src="/assets/jquery/jquery.min.js"></script>
+  <link href="/assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script src="/assets/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/socket.io/socket.io.slim.js"></script>
+  <link href="/assets/fontawesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
+  <script src="/assets/js//moment.min.js"></script>
+  <script type="text/javascript" src="/assets/js/socket.confirguration.js" charset="utf-8"></script>
+
+</head>
+
+<body translate="no">
+  <div class="container clearfix">
+    <div class="chat">
+      <div class="chat-header clearfix">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/chat_avatar_01_green.jpg" alt="avatar">
+        <div class="chat-about">
+          <div class="chat-with">Chat with Vincent Porter</div>
+          <div class="chat-num-messages">already 1 902 messages</div>
+        </div>
+        <i class="fa fa-star"></i>
+      </div>
+      <div class="chat-history">
+        <ul class="msg_history">
+
+
+        </ul>
+      </div>
+      <div class="chat-message clearfix">
+        <textarea name="message-to-send" id="message-to-send" placeholder="Type your message" rows="3"></textarea>
+        <i class="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
+        <i class="fa fa-file-image-o"></i>
+        <button class="msg_send_btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/assets/js/socket.send.js" charset="utf-8"></script>
+
+
+
+</body>
+
+</html>
