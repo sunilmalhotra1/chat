@@ -1,6 +1,7 @@
 # Python django socket.io chat
-WebSocket practice project in Python
-We weren't receiving a lot of client work requiring the use of WebSockets in Python, hence I created this simple Chat Room application to practice the concepts. This project leverages Python Channels in Django to implement WebSockets.
+Socket.Io chat practice project in Python django framework
+This project is based on one to one chat on the basis of chat room allocation using socket.io library.
+
 
 # Getting Started
 You need the following installed on your machine:
