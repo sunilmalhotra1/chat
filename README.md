@@ -15,6 +15,6 @@ Start Project
 python manage.py runserver
 
 # Steps for use the project
-Url for users listing : https://localhost:8000/users  
+Url for users listing : http://localhost:8000/users  
 click on chat icon/button in users lisit and use the runtime chat.
  
