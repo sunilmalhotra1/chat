@@ -1,5 +1,5 @@
 # Python django socket.io chat
-Socket.Io chat practice project in Python django framework
+A Socket.Io chat practice project in Python django framework
 This project is based on one to one chat on the basis of chat room allocation using socket.io library.
 
 
